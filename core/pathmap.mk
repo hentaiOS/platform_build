@@ -93,4 +93,8 @@ FRAMEWORKS_BASE_SUBDIRS := \
 FRAMEWORKS_BASE_JAVA_SRC_DIRS := \
 	$(addprefix frameworks/base/,$(FRAMEWORKS_BASE_SUBDIRS))
 
+<<<<<<< HEAD
 -include $(TOPDIR)vendor/hentai/build/core/pathmap.mk
+=======
+-include vendor/lineage/build/core/pathmap.mk
+>>>>>>> 073669ec4 (build: Add Lineage build support)
