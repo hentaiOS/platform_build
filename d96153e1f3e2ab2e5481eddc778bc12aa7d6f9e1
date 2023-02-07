@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70ffe9de_c5cde29f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-02-07T20:48:55Z",
+      "side": 1,
+      "message": "Proper fix pushed on gerrit",
+      "revId": "d96153e1f3e2ab2e5481eddc778bc12aa7d6f9e1",
+      "serverId": "90ec3431-229f-4ad1-9645-e5b063dc3de3"
+    }
+  ]
+}
