@@ -280,11 +280,7 @@ def IsEntryOtaPackage(input_zip, filename):
 
 def GetApexFilename(filename):
   name = os.path.basename(filename)
-  # Replace the suffix for compressed apex
-  if name.endswith(".capex"):
-    return name.replace(".capex", ".apex")
   return name
-
 
 def GetApkCerts(certmap):
   if OPTIONS.override_apk_keys is not None:
