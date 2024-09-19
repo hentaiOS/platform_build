@@ -280,8 +280,8 @@ def IsEntryOtaPackage(input_zip, filename):
 
 def GetApexFilename(filename):
   name = os.path.basename(filename)
-  # Replace the suffix for compressed apex
-  if name.endswith(".capex"):
+  # Replace the suffix for source built compressed apex
+  if name.endswith(".capex") and "com.google" not in name:
     return name.replace(".capex", ".apex")
   return name
 
